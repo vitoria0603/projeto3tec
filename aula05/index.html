@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhando com imagens que se ajustam</title>
+</head>
+<body>
+    <h1> Imagens que se adaptam</h1>
+        <picture>
+            <source media="(max-width: 750px)" srcset="300px.png">
+            <source media="(max-width:1050px )" srcset="750.png">
+            <img src="1000px.png" alt="imagem ajustável">
+        </picture>
+</body>
+</html>
